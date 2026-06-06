@@ -147,7 +147,7 @@ export default function HowItWorks() {
                 dialed-in.
               </span>
             </h2>
-            <p className="mt-4 max-w-2xl mx-auto text-sm md:text-base text-neutral-400 font-normal">
+            <p className="mt-4 max-w-2xl mx-auto text-sm md:text-base text-neutral-200 font-normal">
               The fastest path from &quot;what should I take?&quot; to
               &quot;here&apos;s exactly what to do&quot; — across three focused
               steps, backed by real research.

@@ -7,7 +7,7 @@ export default function FinalCta() {
         <h2 className="animate-on-scroll [animation:animationIn_0.8s_ease-out_0.2s_both] text-5xl md:text-7xl font-medium text-white tracking-tight mb-8">
           Ready to lock in your protocol?
         </h2>
-        <p className="animate-on-scroll [animation:animationIn_0.8s_ease-out_0.3s_both] text-xl text-neutral-400 font-light max-w-2xl mx-auto mb-12">
+        <p className="animate-on-scroll [animation:animationIn_0.8s_ease-out_0.3s_both] text-xl text-neutral-200 font-light max-w-2xl mx-auto mb-12">
           Join serious lifters using Peplocked to cut the noise, research
           smarter, and dial in faster. One personalized summary in 3 minutes.
         </p>

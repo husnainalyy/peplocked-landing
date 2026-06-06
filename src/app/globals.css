@@ -166,7 +166,7 @@ body {
   font-weight: 600;
 }
 #comparison .muted {
-  color: #6b6b6b;
+  color: #9a9a9a;
 }
 #comparison .btn-secondary {
   display: inline-block;
@@ -214,4 +214,24 @@ body {
 }
 [data-scroll-column]:hover {
   animation-play-state: paused;
+}
+
+/*
+ * Readability tweak: the original design uses very dim neutral grays for
+ * secondary text. These overrides brighten the dimmer shades a step so copy
+ * is easier to read on the near-black background — still gray, not full white.
+ * (Declared after @tailwind utilities so they win by source order; hover/
+ * group-hover variants keep higher specificity and are unaffected.)
+ */
+.text-neutral-400 {
+  color: rgb(190 190 190);
+}
+.text-neutral-500 {
+  color: rgb(168 168 168);
+}
+.text-neutral-600 {
+  color: rgb(146 146 146);
+}
+.text-neutral-700 {
+  color: rgb(124 124 124);
 }

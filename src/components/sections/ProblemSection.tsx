@@ -15,7 +15,7 @@ export default function ProblemSection() {
             Stop drowning in <span className="text-red-500">conflicting</span>{" "}
             advice.
           </h2>
-          <p className="animate-on-scroll [animation:animationIn_0.8s_ease-out_0.3s_both] text-lg text-neutral-400 font-light leading-relaxed max-w-xl mx-auto">
+          <p className="animate-on-scroll [animation:animationIn_0.8s_ease-out_0.3s_both] text-lg text-neutral-200 font-light leading-relaxed max-w-xl mx-auto">
             Most guys waste weeks piecing together Reddit threads, ChatGPT
             disclaimers, and bro-science videos. Here&apos;s what changes the
             moment you switch to Peplocked.

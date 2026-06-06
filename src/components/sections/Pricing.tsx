@@ -62,7 +62,7 @@ export default function Pricing() {
               </span>
               <span className="text-neutral-500 font-medium">/mo</span>
             </div>
-            <p className="text-sm text-neutral-400 mb-8 leading-relaxed">
+            <p className="text-sm text-neutral-200 mb-8 leading-relaxed">
               Start exploring peptide research, free forever.
             </p>
 

@@ -9,7 +9,7 @@ export default function Dashboard() {
         <h2 className="mt-4 text-4xl md:text-5xl font-semibold text-white tracking-tight">
           Everything in one place.
         </h2>
-        <p className="mt-4 text-base md:text-lg text-neutral-400 font-light leading-relaxed">
+        <p className="mt-4 text-base md:text-lg text-neutral-100 font-light leading-relaxed">
           Track your active protocol, browse 40+ compounds, and let the AI flag
           risks from your bloodwork — all from a single dashboard.
         </p>

@@ -36,7 +36,7 @@ export default function SiteFooter() {
                 className="h-16 w-auto"
               />
             </div>
-            <p className="text-sm text-neutral-500 leading-relaxed max-w-xs">
+            <p className="text-sm text-neutral-200 leading-relaxed max-w-xs">
               Research-grade peptide intelligence for serious lifters.
               Educational research only — not medical advice.
             </p>

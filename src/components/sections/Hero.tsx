@@ -22,7 +22,7 @@ export default function Hero() {
         with peptide intelligence.
       </h1>
 
-      <p className="animate-on-scroll [animation:animationIn_0.8s_ease-out_0.4s_both] md:text-2xl leading-relaxed text-xl font-light text-neutral-300 tracking-tight max-w-2xl mr-auto mb-12 ml-auto">
+      <p className="animate-on-scroll [animation:animationIn_0.8s_ease-out_0.4s_both] md:text-2xl leading-relaxed text-xl font-light text-neutral-100 tracking-tight max-w-2xl mr-auto mb-12 ml-auto">
         Skip the Reddit rabbit holes and conflicting advice. Get cited,
         personalized research on peptides, dosing, stacking, and recovery — in
         minutes.
@@ -60,7 +60,7 @@ export default function Hero() {
         </button>
       </div>
 
-      <div className="animate-on-scroll [animation:animationIn_0.8s_ease-out_0.6s_both] mt-8 flex items-center justify-center gap-2 text-sm text-neutral-500 font-medium">
+      <div className="animate-on-scroll [animation:animationIn_0.8s_ease-out_0.6s_both] mt-8 flex items-center justify-center gap-2 text-sm text-neutral-100 font-medium">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"
@@ -71,12 +71,12 @@ export default function Hero() {
           strokeWidth="1.5"
           strokeLinecap="round"
           strokeLinejoin="round"
-          className="text-neutral-300"
+          className="text-neutral-100"
         >
           <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"></path>
           <path d="m9 12 2 2 4-4"></path>
         </svg>
-        <span className="text-neutral-300">
+        <span className="text-neutral-100">
           Private &amp; encrypted • Educational research only
         </span>
       </div>

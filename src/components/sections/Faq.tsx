@@ -70,7 +70,7 @@ export default function Faq() {
             <h2 className="text-3xl md:text-4xl font-medium tracking-tight text-white">
               Help &amp; FAQs
             </h2>
-            <p className="mt-3 text-sm md:text-base text-neutral-400">
+            <p className="mt-3 text-sm md:text-base text-neutral-200">
               Quick answers about how Peplocked works, pricing, and safety.
             </p>
           </div>

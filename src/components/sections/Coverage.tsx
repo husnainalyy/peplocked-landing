@@ -95,7 +95,7 @@ export default function Coverage() {
         <h2 className="mt-4 text-4xl md:text-5xl font-semibold text-white tracking-tight">
           40+ compounds, expanding weekly
         </h2>
-        <p className="mt-4 text-base md:text-lg text-neutral-400 font-light leading-relaxed">
+        <p className="mt-4 text-base md:text-lg text-neutral-200 font-light leading-relaxed">
           Organized by what you actually want. Browse by goal — each profile
           includes mechanism, dosing, half-life, stacks, and research tier.
         </p>

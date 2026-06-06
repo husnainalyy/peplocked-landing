@@ -8,7 +8,7 @@ export default function ProductShowcase() {
         <h2 className="mt-4 text-3xl md:text-4xl font-semibold text-white tracking-tight">
           Ask anything. Get research-grade answers.
         </h2>
-        <p className="mt-3 text-base text-neutral-400 font-light leading-relaxed">
+        <p className="mt-3 text-base text-neutral-100 font-light leading-relaxed">
           Cited, structured, and tuned to how deep you want to go — from a quick
           TL;DR to a full mechanism breakdown.
         </p>

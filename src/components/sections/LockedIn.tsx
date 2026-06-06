@@ -36,7 +36,7 @@ export default function LockedIn() {
           <h2 className="mt-4 text-4xl md:text-5xl font-semibold text-white tracking-tight">
             Your full protocol command center.
           </h2>
-          <p className="mt-4 text-base md:text-lg text-neutral-400 font-light leading-relaxed">
+          <p className="mt-4 text-base md:text-lg text-neutral-200 font-light leading-relaxed">
             Premium tools that turn Peplocked into your private protocol lab.
           </p>
         </div>

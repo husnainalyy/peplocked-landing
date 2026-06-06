@@ -16,7 +16,7 @@ export default function Features() {
             Tools built for serious protocols
           </h2>
 
-          <p className="animate-on-scroll [animation:animationIn_0.8s_ease-out_0.4s_both] text-lg text-neutral-400 font-light leading-relaxed max-w-xl mx-auto">
+          <p className="animate-on-scroll [animation:animationIn_0.8s_ease-out_0.4s_both] text-lg text-neutral-200 font-light leading-relaxed max-w-xl mx-auto">
             Credible, intentional, and genuinely useful — everything you need to
             research, dose, and dial in real protocols.
           </p>
