@@ -1,7 +1,14 @@
 /*
+ * Tailwind v3 (same version as the original Play CDN) compiled at build time
+ * so all utility classes ship in the CSS bundle — no flash of unstyled content.
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
  * Global styles ported verbatim from the original index.html so the design
- * renders identically. Tailwind utilities are provided at runtime by the
- * Tailwind Play CDN loaded in layout.tsx (matching the original page).
+ * renders identically.
  */
 
 body {

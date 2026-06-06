@@ -1,24 +1,24 @@
 const tools = [
   {
-    delay: "0.2s",
+    anim: "[animation:animationIn_0.8s_ease-out_0.2s_both]",
     icon: "solar:chart-square-linear",
     title: "Lab Marker Reference",
     desc: 'Look up optimal ranges, not just "normal" ranges, for the markers serious lifters track.',
   },
   {
-    delay: "0.3s",
+    anim: "[animation:animationIn_0.8s_ease-out_0.3s_both]",
     icon: "solar:test-tube-linear",
     title: "Bloodwork Analysis",
     desc: "Upload your lab panel. Get a research-grade read against your protocol with flagged markers.",
   },
   {
-    delay: "0.4s",
+    anim: "[animation:animationIn_0.8s_ease-out_0.4s_both]",
     icon: "solar:shield-check-linear",
     title: "COA Verification",
     desc: "Drop a vendor COA. Get a structured analysis of purity, identity, and red flags.",
   },
   {
-    delay: "0.5s",
+    anim: "[animation:animationIn_0.8s_ease-out_0.5s_both]",
     icon: "solar:clipboard-check-linear",
     title: "Protocol Review",
     desc: "Submit your written protocol. Get a critique on dose, sequencing, and risk.",
@@ -45,7 +45,7 @@ export default function LockedIn() {
           {tools.map((t) => (
             <div
               key={t.title}
-              className={`animate-on-scroll [animation:animationIn_0.8s_ease-out_${t.delay}_both] rounded-2xl border border-white/5 bg-[#0A0A0A] p-6 hover:border-white/10 transition-colors`}
+              className={`animate-on-scroll ${t.anim} rounded-2xl border border-white/5 bg-[#0A0A0A] p-6 hover:border-white/10 transition-colors`}
             >
               <div className="flex items-center gap-3 mb-3">
                 <span className="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-red-500/10 border border-red-500/20">

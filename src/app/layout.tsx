@@ -16,9 +16,6 @@ export default function RootLayout({
   return (
     <html lang="en" className="antialiased dark">
       <head>
-        {/* Tailwind Play CDN — same engine/config the original page used */}
-        <Script src="https://cdn.tailwindcss.com" strategy="beforeInteractive" />
-
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
