@@ -1,26 +1,210 @@
-@import "tailwindcss";
+/*
+ * Global styles ported verbatim from the original index.html so the design
+ * renders identically. Tailwind utilities are provided at runtime by the
+ * Tailwind Play CDN loaded in layout.tsx (matching the original page).
+ */
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+body {
+  background-color: #050505;
+  color: #e5e5e5;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* Grid Background - Dark Mode */
+.grid-lines {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 33.33% 100%;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* Shared Style for Gradient Border Buttons */
+[style*="--border-gradient"]::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 1px;
+  border-radius: var(--border-radius-before, inherit);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  background: var(--border-gradient);
+  pointer-events: none;
+}
+
+/* Animation Keyframe */
+@keyframes animationIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+    filter: blur(8px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0px);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Default: paused */
+.animate-on-scroll {
+  animation-play-state: paused !important;
+}
+/* Activated by JS */
+.animate-on-scroll.animate {
+  animation-play-state: running !important;
+}
+
+/* Google font helper classes (only those used in the page) */
+.font-instrument-serif {
+  font-family: 'Instrument Serif', serif !important;
+}
+.font-geist-mono {
+  font-family: 'Geist Mono', monospace !important;
+}
+
+/* Product Showcase animations */
+@keyframes pepPopIn {
+  0% {
+    opacity: 0;
+    transform: translateY(28px) scale(0.9);
+    filter: blur(6px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(-5px) scale(1.015);
+    filter: blur(0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: blur(0);
+  }
+}
+@keyframes pepFloat {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes pepCardLoop {
+  0% {
+    opacity: 0;
+    transform: translateY(18px) scale(0.85);
+  }
+  6% {
+    opacity: 1;
+    transform: translateY(-4px) scale(1.03);
+  }
+  12% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+  80% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+  88% {
+    opacity: 0;
+    transform: translateY(18px) scale(0.85);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(18px) scale(0.85);
+  }
+}
+.pep-float {
+  animation: pepFloat 7s ease-in-out infinite;
+}
+.pep-float-slow {
+  animation: pepFloat 9s ease-in-out infinite;
+}
+
+/* Comparison Section */
+#comparison .serif {
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+#comparison .mono {
+  font-family: 'Geist Mono', monospace;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+#comparison .container-slim {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+#comparison .cmp-scroll {
+  overflow-x: auto;
+}
+#comparison .cmp-table {
+  min-width: 720px;
+}
+#comparison .cmp-row {
+  display: grid;
+  grid-template-columns: 2.2fr 1fr 1fr 1fr 1fr;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 1.25rem 0.5rem;
+  text-align: left;
+  align-items: center;
+  transition: background 0.3s ease, padding-left 0.3s ease;
+}
+#comparison .cmp-row:hover {
+  background: rgba(255, 255, 255, 0.03);
+  padding-left: 10px;
+}
+#comparison .pep {
+  color: #ef4444;
+  font-weight: 600;
+}
+#comparison .muted {
+  color: #6b6b6b;
+}
+#comparison .btn-secondary {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 9999px;
+  font-family: 'Geist Mono', monospace;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  margin-top: 3rem;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+#comparison .btn-secondary:hover {
+  background: #ef4444;
+  border-color: #ef4444;
+  color: #fff;
+}
+
+/* Testimonials marquee */
+@keyframes scrollUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-33.33%);
+  }
+}
+@keyframes scrollDown {
+  0% {
+    transform: translateY(-33.33%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+[data-scroll-column="1"] {
+  animation: scrollUp 20s linear infinite;
+}
+[data-scroll-column="2"] {
+  animation: scrollDown 20s linear infinite;
+}
+[data-scroll-column="3"] {
+  animation: scrollUp 20s linear infinite;
+}
+[data-scroll-column]:hover {
+  animation-play-state: paused;
 }
