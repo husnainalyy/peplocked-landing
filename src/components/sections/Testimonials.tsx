@@ -57,21 +57,21 @@ const col1: Testimonial[] = [
   {
     quote:
       '"I stopped guessing. Peplocked built me a recovery stack in minutes that actually made sense — cited, dosed, and dialed in."',
-    img: "https://images.unsplash.com/photo-1607746882042-944635dfe10e?q=80&w=256&auto=format&fit=crop",
+    img: "https://images.unsplash.com/photo-1639989889751-7803c2e3c440?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     name: "Alex R.",
     role: "Natural Lifter",
   },
   {
     quote:
       '"Cancelled my $300 \'optimization\' consults. The bloodwork analysis flagged things my clinic glossed right over."',
-    img: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=256&auto=format&fit=crop",
+    img: "https://images.unsplash.com/photo-1600679472868-eae382e28b34?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGNvbmZpZGVudCUyMGJ1c2luZXNzbWFuJTIwaGVhZHNob3QlMjBzbWlsaW5nfGVufDB8fDB8fHww",
     name: "Marcus T.",
     role: "Entrepreneur",
   },
   {
     quote:
       '"The COA scanner caught a low-purity batch before I touched it. That alone paid for the whole year."',
-    img: "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?q=80&w=256&auto=format&fit=crop",
+    img: "https://images.unsplash.com/photo-1599242460737-5174dba06145?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Zml0JTIwbWlkZGxlJTIwYWdlZCUyMG1hbiUyMHBvcnRyYWl0JTIwYXRobGV0aWN8ZW58MHx8MHx8fDA%3D",
     name: "David K.",
     role: "Masters Athlete",
   },
@@ -81,21 +81,21 @@ const col2: Testimonial[] = [
   {
     quote:
       '"Went from 15 Reddit tabs to one clear protocol. BPC-157 timing finally makes sense."',
-    img: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=256&auto=format&fit=crop",
+    img: "https://images.unsplash.com/photo-1621787279751-2baabc22d976?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bXVzY3VsYXIlMjBtYW4lMjBneW0lMjBwb3J0cmFpdCUyMHNlcmlvdXN8ZW58MHwyfDB8fHww",
     name: "Jordan M.",
     role: "Powerlifter",
   },
   {
     quote:
       '"The compound library is the first place I trust. Mechanism, half-life, stacks — all in one spot."',
-    img: "https://images.unsplash.com/photo-1546456073-6712f79251bb?q=80&w=256&auto=format&fit=crop",
+    img: "https://images.unsplash.com/photo-1733517300919-ec69c1447345?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fGZpdG5lc3N8ZW58MHwyfDB8fHww",
     name: "Ethan L.",
     role: "Strength Coach",
   },
   {
     quote:
       '"Asked about CJC-1295 + Ipamorelin and got a straight, cited answer instead of bro-science."',
-    img: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=256&auto=format&fit=crop",
+    img: "https://images.unsplash.com/photo-1591142156806-0d4e25465af5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGVhbiUyMGF0aGxldGljJTIwbWFuJTIwcG9ydHJhaXQlMjBvdXRkb29yfGVufDB8MnwwfHx8MA%3D%3D",
     name: "Ryan P.",
     role: "CrossFit Athlete",
   },
@@ -105,21 +105,21 @@ const col3: Testimonial[] = [
   {
     quote:
       '"Pre-TRT guidance helped me delay TRT another two years with a real plan, not a forum guess."',
-    img: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=256&auto=format&fit=crop",
+    img: "https://images.unsplash.com/photo-1577744168855-0391d2ed2b3a?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     name: "Daniel S.",
     role: "Age 47 · Pre-TRT",
   },
   {
     quote:
       '"Tracked IGF-1 and hs-CRP across 8 weeks and adjusted based on data. Total game changer."',
-    img: "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?q=80&w=256&auto=format&fit=crop",
+    img: "https://images.unsplash.com/photo-1671514256659-58663e3263e6?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGJvZHlidWlsZGVyJTIwbWFuJTIwcG9ydHJhaXQlMjBtdXNjdWxhciUyMGZhY2V8ZW58MHwyfDB8fHww",
     name: "Chris H.",
     role: "Bodybuilder",
   },
   {
     quote:
       '"Dose calculator killed my reconstitution anxiety. No more napkin math at midnight."',
-    img: "https://images.unsplash.com/photo-1546456073-6712f79251bb?q=80&w=256&auto=format&fit=crop",
+    img: "https://images.unsplash.com/photo-1777827839146-d634aee2c991?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8eW91bmclMjBtYW4lMjBzbWlsaW5nfGVufDB8MnwwfHx8MA%3D%3D",
     name: "Sam W.",
     role: "Recreational Lifter",
   },
